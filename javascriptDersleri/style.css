@@ -782,20 +782,12 @@ font-family: 'Source Sans Pro', sans-serif;
 .gift:hover .giftcard {
     top: -10px;
 }
+
 .one_number {
     position: absolute;
     left: 147px;
     top: 25px;
     width: 9px;
-}
-.one_number:after {
-    content: "";
-    height: 5px;
-    width: 5px;
-    position: absolute;
-    background: #c6c6c6;
-    top: 0px;
-    left: 0px;
 }
 .one_number:before {
     content: "";
@@ -806,56 +798,75 @@ font-family: 'Source Sans Pro', sans-serif;
     top: 0px;
     right: 0px;
 }
-.seven_number {
-    position: absolute;
-    right: 147px;
-    top: 25px;
-    width: 14px;
-}
-.seven_number:after {
-    content: "";
-    height: 5px;
-    width: 20px;
-    position: absolute;
-    background: #c6c6c6;
-    top: 0px;
-    left: -2px;
-}
-.seven_number:before {
-    content: "";
-    height: 27px;
-    width: 5px;
-    position: absolute;
-    background: #c6c6c6;
-    top: 0px;
-    right: 0px;
-    -webkit-transform: rotate(20deg);
-    transform: rotate(20deg);
-}
-.seven_flame {
-    height: 12px;
-    width: 6px;
-    border-radius: 100%;
-    background: #ffd215;
-    position: absolute;
-    right: 3px;
-    -webkit-animation: flame 0.5s infinite linear;
-    animation: flame 0.5s infinite linear;
-    -moz-animation: flame 0.5s infinite linear;
-    bottom: 2px;
-}
 .one_flame {
     height: 12px;
     width: 6px;
     border-radius: 100%;
     background: #ffd215;
     position: absolute;
-    right: 1px;
+    right: 0px;
     bottom: 2px;
     -webkit-animation: flame 0.5s infinite linear;
     animation: flame 0.5s infinite linear;
     -moz-animation: flame 0.5s infinite linear;
 }
+
+.two_number {
+    position: absolute;
+    left: 147px;
+    top: 25px;
+    width: 9px;
+}
+.two_number:before {
+    content: "";
+    height: 25px;
+    width: 5px;
+    position: absolute;
+    background: #c6c6c6;
+    top: 0px;
+    right: 0px;
+}
+.two_flame {
+    height: 12px;
+    width: 6px;
+    border-radius: 100%;
+    background: #ffd215;
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+    -webkit-animation: flame 0.5s infinite linear;
+    animation: flame 0.5s infinite linear;
+    -moz-animation: flame 0.5s infinite linear;
+}
+
+.three_number {
+    position: absolute;
+    left: 300px;
+    top: 25px;
+    width: 9px;
+}
+.three_number:before {
+    content: "";
+    height: 25px;
+    width: 5px;
+    position: absolute;
+    background: #c6c6c6;
+    top: 0px;
+    right: 0px;
+}
+.three_flame {
+    height: 12px;
+    width: 6px;
+    border-radius: 100%;
+    background: #ffd215;
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+    -webkit-animation: flame 0.5s infinite linear;
+    animation: flame 0.5s infinite linear;
+    -moz-animation: flame 0.5s infinite linear;
+}
+
 @-webkit-keyframes flame {
     0% {
         height: 12px;
